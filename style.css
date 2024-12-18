@@ -9,7 +9,7 @@
     outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
     margin: 0 auto;
     width: 100%;
-    max-width: 840px;
+    max-width: 1140px;
 }
 
 body {
@@ -38,11 +38,11 @@ header span {
 .main-section .wrapper {
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
 }
 
 .text-wrapper {
-    width: 425px;
+    max-width: 425px;
     height: 180px;
 }
 
