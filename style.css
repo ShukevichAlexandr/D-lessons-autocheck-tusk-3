@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #303030;/* Свойства для сброса начальных стилей элементов */
+}
+
+.container {
+    outline: 1px solid red; /* чтобы контейнер был виден, в конце можно будет удалить это св-во */
+    margin: 0 auto;
+    width: 100%;
+    max-width: 840px;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: #2965F1;
+    padding: 23px 0;
+}
+
+header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff; 
+}
+
+.main-section {
+    background-color: #fafaff;
+    padding: 60px 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-section .wrapper {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.text-wrapper {
+    width: 425px;
+    height: 180px;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom:  20px; 
+}
+
+.main-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main-image {
+    max-width: 715px;
+}
+
+
+.about-section {
+    background-color: #FFFFFF;
+    padding: 100px 0;
+}
+
+.about-section .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+select {
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    background: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    font-weight: 400;
+    background: url(./assets/image/ep_arrow-down.svg) no-repeat right 15px top 50%;
+    appearance: none;
+}
+
+select:hover,
+.text-field:hover {
+    cursor: pointer;
+    border: solid #2965F1;
+}
+
+.info-wrapper {
+    display: flex;
+    align-self: center;
+    gap: 146px;
+}
+
+
+.section-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.frameworks,
+.books {
+    min-width: 50%;
+}
+
+.frameworks-list,
+.books-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px ;
+}
+
+.frameworks-list {
+    list-style-image:url(./assets/image/solar_map-arrow-up-bold.svg);
+    fill: #2965f1;
+    padding: 0 20px;
+}
+
+.books-list {
+    font-size: 16px;
+    font-weight: 400;
+    /* padding: 0 20px;  бот сказал добавить  */
+    padding-left: 20px ;
+}
+
+.skills-block {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+.text-field {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    max-width: 330px;
+    width: 100%;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 8px 12px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background-color: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color:#95A1BB ;
+}
+.line {
+    margin: 60px 0;
+}
+
+table {
+    border: 1px solid #95a1bb;
+    border-collapse: collapse;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0 auto;
+}
+
+th, td {
+    padding: 12px 15px;
+}
+
+footer {
+    background-color: rgba(163, 167, 255, 0.3);
+    padding: 26px 0;
+text-align: center;
+}
+
+.footer-link {
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+a.readed {color: #2965f1}
+a.readed:visited {color: purple}
+
+ul{
+    list-style: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
